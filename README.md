@@ -29,7 +29,7 @@ The tool supports filtering by `author` and is ideal for pinpointing contributio
 2. Usage - The script expects the following usage pattern:
 
 ```bash
-GITHUB_TOKEN=<your_pat> ./query_prs.sh <OWNER>/<REPO>/<target-folder> [author]
+GITHUB_TOKEN=<your_pat> ./query_prs.sh "<OWNER>/<REPO>/<target-folder>" [author]
 ```
 
 - ```OWNER``` : GitHub username or organization name.
@@ -43,7 +43,7 @@ GITHUB_TOKEN=<your_pat> ./query_prs.sh <OWNER>/<REPO>/<target-folder> [author]
 
 Command:
 ```bash
-GITHUB_TOKEN=abcdef123456 ./query_prs.sh ExampleOrg/Repo-A/.github/workflows
+GITHUB_TOKEN=abcdef123456 ./query_prs.sh "ExampleOrg/Repo-A/.github/workflows"
 ```
 
 Response:
@@ -80,7 +80,7 @@ Matched Files:
 
 Command:
 ```bash
-GITHUB_TOKEN=abcdef123456 ./query_prs.sh ExampleOrg/Repo-A/.github/workflows appatalks
+GITHUB_TOKEN=abcdef123456 ./query_prs.sh "ExampleOrg/Repo-A/.github/workflows" appatalks
 ```
 
 Response:
