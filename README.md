@@ -39,7 +39,7 @@ GITHUB_TOKEN=<your_pat> ./query_prs.sh "<OWNER>/<REPO>/<target-folder>" [author]
 
 ### Examples
 
-1. To search for pull requests in the ```appatalks/my-repo``` repository that have changes in the ```.github/workflows``` folder:
+1. To search for pull requests in the ```appatalks/Repo-A``` repository that have changes in the ```.github/workflows``` folder:
 
 Command:
 ```bash
